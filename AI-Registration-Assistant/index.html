@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Registration Assistant</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>AI Registration Assistant</h1>
+
+    <form id="registrationForm">
+
+        <input type="text" id="name" placeholder="Full Name" required>
+
+        <input type="email" id="email" placeholder="Email" required>
+
+        <input type="number" id="marks" placeholder="12th Percentage" required>
+
+        <select id="course">
+            <option>BCA (AI/ML)</option>
+            <option>BCA</option>
+            <option>B.Tech CSE</option>
+            <option>MCA</option>
+        </select>
+
+        <button type="submit">Check Eligibility</button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
