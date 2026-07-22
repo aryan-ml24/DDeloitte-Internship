@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Internship Recommender</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+<div class="logo">🎯🤖</div>
+
+<h1>Smart Internship Recommender</h1>
+
+<p class="subtitle">
+Find the best internship based on your skills and interests.
+</p>
+    <form id="recommendForm">
+
+        <input
+            type="text"
+            id="name"
+            placeholder="Enter Your Name"
+            required
+        >
+
+        <select id="skill">
+            <option value="">Select Skill</option>
+            <option>Python</option>
+            <option>Java</option>
+            <option>Web Development</option>
+            <option>Machine Learning</option>
+            <option>Data Science</option>
+        </select>
+
+        <select id="interest">
+            <option value="">Select Interest</option>
+            <option>AI</option>
+            <option>Software Development</option>
+            <option>Cyber Security</option>
+            <option>Cloud Computing</option>
+            <option>Data Analytics</option>
+        </select>
+
+        <button type="button" onclick="recommendInternship()">
+            Recommend Internship
+        </button>
+
+    </form>
+
+    <div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
